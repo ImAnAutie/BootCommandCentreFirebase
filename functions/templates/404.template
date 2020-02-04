@@ -1,0 +1,5 @@
+#!ipxe
+echo Ipxe script not found
+
+prompt --key 0x02 --timeout 5000 Press Ctrl-B for the iPXE command line... && shell ||
+reboot

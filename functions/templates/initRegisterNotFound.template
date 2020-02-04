@@ -1,0 +1,8 @@
+#!ipxe
+echo {{config.AppName}}
+
+echo Device not activated
+echo The ID for this device is {{optionData.deviceID}}
+echo To continue activate this device in the {{config.AppName}}
+prompt --timeout 15000 Press any key to reboot && reboot ||
+https://{{config.IpxeApiRoot}}/init

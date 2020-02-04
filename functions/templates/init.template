@@ -1,0 +1,6 @@
+#!ipxe
+echo Registering with {{config.AppName}}
+
+set NextBootUrl https://{{config.IpxeApiRoot}}/init/register?mac=${net0/mac}&uuid=${uuid}&serial=${serial}&asset=${asset:uristring}
+echo ${NextBootUrl}
+chain ${NextBootUrl}

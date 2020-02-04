@@ -17,6 +17,10 @@
     ],
     "rewrites": [
       {
+        "source": "/IpxeApi/**",
+        "function": "IpxeApi"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
