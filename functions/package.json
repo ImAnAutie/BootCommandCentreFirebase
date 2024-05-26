@@ -17,10 +17,10 @@
     "camelcase": "^5.3.1",
     "connect-slashes": "^1.4.0",
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^7.0.0",
     "firebase-admin": "^8.13.0",
     "firebase-functions": "^3.14.1",
-    "glob": "^7.1.6",
+    "glob": "^9.0.0",
     "handlebars": "^4.7.7",
     "querystring": "^0.2.1"
   },
